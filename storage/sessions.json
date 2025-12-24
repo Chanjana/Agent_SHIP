@@ -1,0 +1,643 @@
+{
+  "9ca45b74": {
+    "name": "Session 12/24 12:47",
+    "created_at": "2025-12-24T12:47:53.641491",
+    "prediction": {
+      "prediction_label": "Delayed",
+      "probability": 0.7845236090681008,
+      "drivers": [
+        {
+          "feature": "shipping_mode",
+          "weight": -0.921888370696078,
+          "weight_percent": 40.22
+        },
+        {
+          "feature": "ship_hour & shipping_mode",
+          "weight": -0.5889671383367869,
+          "weight_percent": 25.7
+        },
+        {
+          "feature": "scheduled_shipping_days",
+          "weight": 0.2718448378579214,
+          "weight_percent": 11.86
+        },
+        {
+          "feature": "is_night & shipping_mode",
+          "weight": -0.2231552930650229,
+          "weight_percent": 9.74
+        },
+        {
+          "feature": "ship_hour",
+          "weight": -0.09345936746190882,
+          "weight_percent": 4.08
+        },
+        {
+          "feature": "longitude",
+          "weight": -0.04828109381840354,
+          "weight_percent": 2.11
+        },
+        {
+          "feature": "order_profit_per_order",
+          "weight": 0.03489155900943397,
+          "weight_percent": 1.52
+        },
+        {
+          "feature": "scheduled_shipping_days & ship_hour",
+          "weight": -0.025190885774043312,
+          "weight_percent": 1.1
+        },
+        {
+          "feature": "sales",
+          "weight": -0.01673035431239258,
+          "weight_percent": 0.73
+        },
+        {
+          "feature": "is_night",
+          "weight": -0.014124610852806883,
+          "weight_percent": 0.62
+        },
+        {
+          "feature": "order_item_discount",
+          "weight": -0.009990877383932825,
+          "weight_percent": 0.44
+        },
+        {
+          "feature": "type",
+          "weight": -0.00833258988081246,
+          "weight_percent": 0.36
+        },
+        {
+          "feature": "ship_dayofweek",
+          "weight": -0.006801140881759154,
+          "weight_percent": 0.3
+        },
+        {
+          "feature": "order_item_total",
+          "weight": -0.006063839361821359,
+          "weight_percent": 0.26
+        },
+        {
+          "feature": "order_item_discount_rate",
+          "weight": -0.005336563065874764,
+          "weight_percent": 0.23
+        },
+        {
+          "feature": "ship_month",
+          "weight": -0.004028352919101728,
+          "weight_percent": 0.18
+        },
+        {
+          "feature": "market",
+          "weight": 0.0038709885122605453,
+          "weight_percent": 0.17
+        },
+        {
+          "feature": "scheduled_shipping_days & is_night",
+          "weight": 0.00280306396236944,
+          "weight_percent": 0.12
+        },
+        {
+          "feature": "is_weekend",
+          "weight": 0.002477943206848149,
+          "weight_percent": 0.11
+        },
+        {
+          "feature": "latitude",
+          "weight": 0.0019259942160271956,
+          "weight_percent": 0.08
+        },
+        {
+          "feature": "order_item_quantity",
+          "weight": -0.0011166312783306297,
+          "weight_percent": 0.05
+        },
+        {
+          "feature": "is_peak_hour",
+          "weight": 0.0005087053073258944,
+          "weight_percent": 0.02
+        },
+        {
+          "feature": "product_price",
+          "weight": -0.00013573967851912463,
+          "weight_percent": 0.01
+        }
+      ],
+      "plot_path": "C:\\Users\\Chanjana\\PycharmProjects\\Agent_SHIP\\artifacts\\ebm_local_explanation.json"
+    },
+    "explanation": "**Shipment Delay Analysis**\n\nBased on the provided data, we predict a shipment delay with a probability of **78.5%**.\n\nThe top contributing factors to this prediction are:\n\n1. **Scheduled Shipping Days**: This factor increases delay risk by **11.86%**, indicating that tighter schedules (1-2 days) have a higher likelihood of delays compared to standard schedules (3-5 days). As the scheduled delivery is set for 2 days, this factor contributes significantly to the predicted delay.\n2. **Shipping Mode**: The selected shipping mode, Second Class, has a **12%** delay rate, which is higher than other options. This factor reduces delay risk by **40.22%**, indicating that upgrading to a faster shipping mode could mitigate delays.\n3. **Ship Hour & Shipping Mode**: Although this combination reduces delay risk by **25.7%**, it still contributes to the predicted delay due to its moderate impact.\n\nThe knowledge base information highlights the importance of realistic scheduling, carrier diversification, and SLA monitoring to mitigate delays.\n\nBased on these findings, we recommend:\n\n1. **Expedite Warehouse Processing**: To minimize processing time and reduce the likelihood of delays.\n2. **Activate Backup Carrier if Available**: To ensure timely delivery in case of unexpected delays or disruptions.\n3. **Assign Dedicated Account Manager**: To provide proactive support and monitoring to mitigate potential issues.\n\n**Next Step:** Immediately alert the customer with a realistic Estimated Time of Arrival (ETA) based on the predicted delay probability, and consider upgrading to a faster shipping mode if cost-effective."
+  },
+  "61816c41": {
+    "name": "Session 12/24 13:29",
+    "created_at": "2025-12-24T13:29:04.728526",
+    "prediction": null,
+    "explanation": null
+  },
+  "eec9d6ed": {
+    "name": "Session 12/24 13:37",
+    "created_at": "2025-12-24T13:37:17.970687",
+    "prediction": {
+      "prediction_label": "Delayed",
+      "probability": 0.8046444890869587,
+      "drivers": [
+        {
+          "feature": "shipping_mode",
+          "weight": -0.921888370696078,
+          "weight_percent": 38.31
+        },
+        {
+          "feature": "ship_hour & shipping_mode",
+          "weight": -0.5771151877497651,
+          "weight_percent": 23.99
+        },
+        {
+          "feature": "scheduled_shipping_days",
+          "weight": 0.2718448378579214,
+          "weight_percent": 11.3
+        },
+        {
+          "feature": "is_night & shipping_mode",
+          "weight": -0.2231552930650229,
+          "weight_percent": 9.27
+        },
+        {
+          "feature": "latitude",
+          "weight": 0.12068679726638278,
+          "weight_percent": 5.02
+        },
+        {
+          "feature": "ship_hour",
+          "weight": -0.10526029351034295,
+          "weight_percent": 4.37
+        },
+        {
+          "feature": "longitude",
+          "weight": -0.04828109381840354,
+          "weight_percent": 2.01
+        },
+        {
+          "feature": "order_profit_per_order",
+          "weight": 0.03489155900943397,
+          "weight_percent": 1.45
+        },
+        {
+          "feature": "scheduled_shipping_days & ship_hour",
+          "weight": -0.020648510948740685,
+          "weight_percent": 0.86
+        },
+        {
+          "feature": "sales",
+          "weight": -0.01673035431239258,
+          "weight_percent": 0.7
+        },
+        {
+          "feature": "is_night",
+          "weight": -0.014124610852806883,
+          "weight_percent": 0.59
+        },
+        {
+          "feature": "order_item_discount",
+          "weight": -0.009990877383932825,
+          "weight_percent": 0.42
+        },
+        {
+          "feature": "type",
+          "weight": -0.00833258988081246,
+          "weight_percent": 0.35
+        },
+        {
+          "feature": "ship_dayofweek",
+          "weight": -0.006801140881759154,
+          "weight_percent": 0.28
+        },
+        {
+          "feature": "order_item_total",
+          "weight": -0.006063839361821359,
+          "weight_percent": 0.25
+        },
+        {
+          "feature": "order_item_discount_rate",
+          "weight": -0.005336563065874764,
+          "weight_percent": 0.22
+        },
+        {
+          "feature": "ship_month",
+          "weight": -0.004028352919101728,
+          "weight_percent": 0.17
+        },
+        {
+          "feature": "market",
+          "weight": 0.0038709885122605453,
+          "weight_percent": 0.16
+        },
+        {
+          "feature": "scheduled_shipping_days & is_night",
+          "weight": 0.00280306396236944,
+          "weight_percent": 0.12
+        },
+        {
+          "feature": "is_weekend",
+          "weight": 0.002477943206848149,
+          "weight_percent": 0.1
+        },
+        {
+          "feature": "order_item_quantity",
+          "weight": -0.0011166312783306297,
+          "weight_percent": 0.05
+        },
+        {
+          "feature": "is_peak_hour",
+          "weight": 0.0005087053073258944,
+          "weight_percent": 0.02
+        },
+        {
+          "feature": "product_price",
+          "weight": -0.00013573967851912463,
+          "weight_percent": 0.01
+        }
+      ],
+      "plot_path": "C:\\Users\\Chanjana\\PycharmProjects\\Agent_SHIP\\artifacts\\ebm_local_explanation.json"
+    },
+    "explanation": "**Shipment Delay Analysis**\n\nThe shipment is predicted to be delayed with an 80.5% probability.\n\n**Top Contributing Factors:**\n\n1. **Scheduled Shipping Days**: This factor increases delay risk by 11.3%. According to the knowledge base, tighter schedules (1-2 days) have a 40-60% higher delay risk compared to standard schedules (3-5 days). In this case, the scheduled delivery is set at only 2 days, which may not provide sufficient buffer time for processing and shipping.\n2. **Shipping Mode**: The selected shipping mode (Second Class) reduces delay risk by 38.31%. However, Second Class has a higher delay rate compared to other modes (12% vs. 8% for First Class). This suggests that upgrading to a faster shipping mode may be beneficial in reducing delays.\n3. **Latitude**: This factor increases delay risk by 5.02%, although the knowledge base does not provide specific information on how latitude affects shipment delays.\n\n**Business Impact:**\n\nThe selected shipping mode and scheduled delivery timeframe are critical factors influencing shipment delays. The business impact of these factors is significant, with tighter schedules increasing delay risk and slower shipping modes contributing to higher delay rates.\n\n**Recommended Actions:**\n\n1. **Expedite Warehouse Processing**: Assign additional resources to expedite processing and ensure timely shipment.\n2. **Upgrade Shipping Mode (if cost-effective)**: Consider upgrading to a faster shipping mode to reduce delays and improve customer satisfaction.\n3. **Activate Backup Carrier (if available)**: Identify backup carriers and activate them if the primary carrier is unable to meet delivery deadlines.\n\n**Next Step:** Implement these recommended actions immediately to mitigate shipment delays and ensure timely delivery of the order valued at $371.98."
+  },
+  "a0b3a2f9": {
+    "name": "Session 12/24 13:42",
+    "created_at": "2025-12-24T13:42:20.043874",
+    "prediction": {
+      "prediction_label": "On-Time",
+      "probability": 0.41708233762149544,
+      "drivers": [
+        {
+          "feature": "shipping_mode",
+          "weight": -2.189277700507284,
+          "weight_percent": 60.67
+        },
+        {
+          "feature": "ship_hour & shipping_mode",
+          "weight": -0.5757699632175938,
+          "weight_percent": 15.95
+        },
+        {
+          "feature": "scheduled_shipping_days",
+          "weight": -0.2562474383779808,
+          "weight_percent": 7.1
+        },
+        {
+          "feature": "is_night & shipping_mode",
+          "weight": -0.218339817496379,
+          "weight_percent": 6.05
+        },
+        {
+          "feature": "ship_hour",
+          "weight": -0.10526029351034295,
+          "weight_percent": 2.92
+        },
+        {
+          "feature": "latitude",
+          "weight": 0.0908920892887707,
+          "weight_percent": 2.52
+        },
+        {
+          "feature": "longitude",
+          "weight": 0.0436438179034348,
+          "weight_percent": 1.21
+        },
+        {
+          "feature": "order_profit_per_order",
+          "weight": -0.02931668592452653,
+          "weight_percent": 0.81
+        },
+        {
+          "feature": "sales",
+          "weight": -0.01673035431239258,
+          "weight_percent": 0.46
+        },
+        {
+          "feature": "scheduled_shipping_days & ship_hour",
+          "weight": 0.01426026840738509,
+          "weight_percent": 0.4
+        },
+        {
+          "feature": "is_night",
+          "weight": -0.014124610852806883,
+          "weight_percent": 0.39
+        },
+        {
+          "feature": "type",
+          "weight": -0.00833258988081246,
+          "weight_percent": 0.23
+        },
+        {
+          "feature": "order_item_discount",
+          "weight": -0.008207055050597167,
+          "weight_percent": 0.23
+        },
+        {
+          "feature": "scheduled_shipping_days & is_night",
+          "weight": 0.00760258350998836,
+          "weight_percent": 0.21
+        },
+        {
+          "feature": "ship_dayofweek",
+          "weight": -0.006801140881759154,
+          "weight_percent": 0.19
+        },
+        {
+          "feature": "order_item_total",
+          "weight": -0.006063839361821359,
+          "weight_percent": 0.17
+        },
+        {
+          "feature": "order_item_discount_rate",
+          "weight": -0.005771547841411308,
+          "weight_percent": 0.16
+        },
+        {
+          "feature": "ship_month",
+          "weight": -0.004028352919101728,
+          "weight_percent": 0.11
+        },
+        {
+          "feature": "market",
+          "weight": 0.0038709885122605453,
+          "weight_percent": 0.11
+        },
+        {
+          "feature": "is_weekend",
+          "weight": 0.002477943206848149,
+          "weight_percent": 0.07
+        },
+        {
+          "feature": "order_item_quantity",
+          "weight": -0.0011166312783306297,
+          "weight_percent": 0.03
+        },
+        {
+          "feature": "is_peak_hour",
+          "weight": 0.0005087053073258944,
+          "weight_percent": 0.01
+        },
+        {
+          "feature": "product_price",
+          "weight": -0.00013573967851912463,
+          "weight_percent": 0.0
+        }
+      ],
+      "plot_path": "C:\\Users\\Chanjana\\PycharmProjects\\Agent_SHIP\\artifacts\\ebm_local_explanation.json"
+    },
+    "explanation": "**Shipment Delay Analysis**\n\nBased on the provided data, our prediction indicates that the shipment will be delayed with a probability of 41.7%.\n\nThe top contributing factors to this delay risk are:\n\n1. **shipping_mode**: Reduces delay risk by 60.67%. The Standard Class shipping mode has an associated delay rate of 18%, which is higher than other modes (15% for Same Day, 8% for First Class, and 12% for Second Class).\n2. **ship_hour & shipping_mode**: Reduces delay risk by 15.95%. Peak hours (7-9am, 5-7pm) have a 25% higher delay rate due to volume, which is exacerbated by the Standard Class shipping mode.\n3. **scheduled_shipping_days**: Reduces delay risk by 7.1%. Tighter schedules (1-2 days) have a 40-60% higher delay risk compared to standard schedules (3-5 days).\n4. **is_night & shipping_mode**: Reduces delay risk by 6.05%. However, the specific business impact and mitigation strategy for this factor are not provided in the knowledge base.\n\nTo mitigate these risks, we recommend:\n\n1. **Carrier diversification**: Consider using multiple carriers to reduce reliance on a single provider.\n2. **SLA monitoring**: Continuously monitor service level agreements to ensure commitments are met.\n3. **Buffer time allocation**: Allocate buffer time for high-value orders to account for potential delays.\n\n**Next Step:** Implement these recommended actions and continuously monitor shipment performance to optimize logistics operations and minimize delay risk."
+  },
+  "ab96ab92": {
+    "name": "Session 12/24 14:23",
+    "created_at": "2025-12-24T14:23:45.428935",
+    "prediction": {
+      "prediction_label": "Delayed",
+      "probability": 0.7927454062941779,
+      "drivers": [
+        {
+          "feature": "shipping_mode",
+          "weight": -0.921888370696078,
+          "weight_percent": 41.11
+        },
+        {
+          "feature": "ship_hour & shipping_mode",
+          "weight": -0.5411183802164918,
+          "weight_percent": 24.13
+        },
+        {
+          "feature": "scheduled_shipping_days",
+          "weight": 0.2718448378579214,
+          "weight_percent": 12.12
+        },
+        {
+          "feature": "is_night & shipping_mode",
+          "weight": -0.2231552930650229,
+          "weight_percent": 9.95
+        },
+        {
+          "feature": "ship_hour",
+          "weight": -0.11361880450832355,
+          "weight_percent": 5.07
+        },
+        {
+          "feature": "longitude",
+          "weight": -0.04828109381840354,
+          "weight_percent": 2.15
+        },
+        {
+          "feature": "order_profit_per_order",
+          "weight": 0.03489155900943397,
+          "weight_percent": 1.56
+        },
+        {
+          "feature": "sales",
+          "weight": -0.01673035431239258,
+          "weight_percent": 0.75
+        },
+        {
+          "feature": "is_night",
+          "weight": -0.014124610852806883,
+          "weight_percent": 0.63
+        },
+        {
+          "feature": "order_item_discount",
+          "weight": -0.009990877383932825,
+          "weight_percent": 0.45
+        },
+        {
+          "feature": "type",
+          "weight": -0.00833258988081246,
+          "weight_percent": 0.37
+        },
+        {
+          "feature": "ship_dayofweek",
+          "weight": -0.006801140881759154,
+          "weight_percent": 0.3
+        },
+        {
+          "feature": "order_item_total",
+          "weight": -0.006063839361821359,
+          "weight_percent": 0.27
+        },
+        {
+          "feature": "order_item_discount_rate",
+          "weight": -0.005336563065874764,
+          "weight_percent": 0.24
+        },
+        {
+          "feature": "ship_month",
+          "weight": -0.004028352919101728,
+          "weight_percent": 0.18
+        },
+        {
+          "feature": "market",
+          "weight": 0.0038709885122605453,
+          "weight_percent": 0.17
+        },
+        {
+          "feature": "scheduled_shipping_days & ship_hour",
+          "weight": -0.0035513643412705687,
+          "weight_percent": 0.16
+        },
+        {
+          "feature": "scheduled_shipping_days & is_night",
+          "weight": 0.00280306396236944,
+          "weight_percent": 0.12
+        },
+        {
+          "feature": "is_weekend",
+          "weight": 0.002477943206848149,
+          "weight_percent": 0.11
+        },
+        {
+          "feature": "latitude",
+          "weight": 0.0019259942160271956,
+          "weight_percent": 0.09
+        },
+        {
+          "feature": "order_item_quantity",
+          "weight": -0.0011166312783306297,
+          "weight_percent": 0.05
+        },
+        {
+          "feature": "is_peak_hour",
+          "weight": 0.0005087053073258944,
+          "weight_percent": 0.02
+        },
+        {
+          "feature": "product_price",
+          "weight": -0.00013573967851912463,
+          "weight_percent": 0.01
+        }
+      ],
+      "plot_path": "C:\\Users\\Chanjana\\PycharmProjects\\Agent_SHIP\\artifacts\\ebm_local_explanation.json"
+    },
+    "explanation": "**Shipment Delay Analysis**\n\nThe shipment is predicted to be delayed with an 79.3% probability.\n\n**Top Contributing Factors:**\n\n1. **Scheduled Shipping Days**: This factor increases delay risk by 12.12%. According to knowledge base information, tighter schedules (1-2 days) have a 40-60% higher delay risk compared to standard schedules (3-5 days). In this case, the shipment is scheduled for delivery in 2 days.\n2. **Shipping Mode**: This factor reduces delay risk by 41.11%. Second Class shipping mode has an 12% delay rate, which is lower than other options. However, considering the high probability of delay and the tight schedule, it may be beneficial to upgrade to a faster shipping mode if cost-effective.\n3. **Ship Hour & Shipping Mode**: This factor reduces delay risk by 24.13%. Peak hours (7-9am, 5-7pm) have a 25% higher delay rate due to volume. However, since the shipment is scheduled for delivery in 2 days, it may not be feasible to stagger processing or hire additional staff.\n4. **Ship Hour**: This factor reduces delay risk by 5.07%. Peak hours (7-9am, 5-7pm) have a 25% higher delay rate due to volume.\n\n**Recommended Actions:**\n\n1. Immediately alert the customer with a realistic Estimated Time of Arrival (ETA).\n2. Upgrade to a faster shipping mode if cost-effective.\n3. Expedite warehouse processing to minimize delays.\n\n**Next Step:** Implement these recommended actions and monitor shipment progress closely to mitigate potential delays."
+  },
+  "83c9f144": {
+    "name": "Session 12/24 14:27",
+    "created_at": "2025-12-24T14:27:56.355948",
+    "prediction": {
+      "prediction_label": "On-Time",
+      "probability": 0.413333340707909,
+      "drivers": [
+        {
+          "feature": "shipping_mode",
+          "weight": -2.189277700507284,
+          "weight_percent": 60.49
+        },
+        {
+          "feature": "ship_hour & shipping_mode",
+          "weight": -0.5802281653980805,
+          "weight_percent": 16.03
+        },
+        {
+          "feature": "scheduled_shipping_days",
+          "weight": -0.2562474383779808,
+          "weight_percent": 7.08
+        },
+        {
+          "feature": "is_night & shipping_mode",
+          "weight": -0.218339817496379,
+          "weight_percent": 6.03
+        },
+        {
+          "feature": "ship_hour",
+          "weight": -0.11361880450832355,
+          "weight_percent": 3.14
+        },
+        {
+          "feature": "latitude",
+          "weight": 0.0908920892887707,
+          "weight_percent": 2.51
+        },
+        {
+          "feature": "longitude",
+          "weight": 0.0436438179034348,
+          "weight_percent": 1.21
+        },
+        {
+          "feature": "order_profit_per_order",
+          "weight": -0.02931668592452653,
+          "weight_percent": 0.81
+        },
+        {
+          "feature": "sales",
+          "weight": -0.01673035431239258,
+          "weight_percent": 0.46
+        },
+        {
+          "feature": "is_night",
+          "weight": -0.014124610852806883,
+          "weight_percent": 0.39
+        },
+        {
+          "feature": "scheduled_shipping_days & ship_hour",
+          "weight": 0.011636873392183278,
+          "weight_percent": 0.32
+        },
+        {
+          "feature": "type",
+          "weight": -0.00833258988081246,
+          "weight_percent": 0.23
+        },
+        {
+          "feature": "order_item_discount",
+          "weight": -0.008207055050597167,
+          "weight_percent": 0.23
+        },
+        {
+          "feature": "scheduled_shipping_days & is_night",
+          "weight": 0.00760258350998836,
+          "weight_percent": 0.21
+        },
+        {
+          "feature": "ship_dayofweek",
+          "weight": -0.006801140881759154,
+          "weight_percent": 0.19
+        },
+        {
+          "feature": "order_item_total",
+          "weight": -0.006063839361821359,
+          "weight_percent": 0.17
+        },
+        {
+          "feature": "order_item_discount_rate",
+          "weight": -0.005771547841411308,
+          "weight_percent": 0.16
+        },
+        {
+          "feature": "ship_month",
+          "weight": -0.004028352919101728,
+          "weight_percent": 0.11
+        },
+        {
+          "feature": "market",
+          "weight": 0.0038709885122605453,
+          "weight_percent": 0.11
+        },
+        {
+          "feature": "is_weekend",
+          "weight": 0.002477943206848149,
+          "weight_percent": 0.07
+        },
+        {
+          "feature": "order_item_quantity",
+          "weight": -0.0011166312783306297,
+          "weight_percent": 0.03
+        },
+        {
+          "feature": "is_peak_hour",
+          "weight": 0.0005087053073258944,
+          "weight_percent": 0.01
+        },
+        {
+          "feature": "product_price",
+          "weight": -0.00013573967851912463,
+          "weight_percent": 0.0
+        }
+      ],
+      "plot_path": "C:\\Users\\Chanjana\\PycharmProjects\\Agent_SHIP\\artifacts\\ebm_local_explanation.json"
+    },
+    "explanation": "**Shipment Delay Analysis**\n\nBased on the provided data, the predicted probability of shipment delay is 41.3%.\n\nThe top contributing factors to this prediction are:\n\n1. **shipping_mode**: reduces delay risk by 60.49%. As per knowledge base information, Standard shipping mode has an 18% delay rate, which contributes significantly to the overall delay risk.\n2. **ship_hour & shipping_mode**: reduces delay risk by 16.03%. Peak hours (7-9am, 5-7pm) have a 25% higher delay risk due to volume, and Standard shipping mode exacerbates this issue.\n3. **scheduled_shipping_days**: reduces delay risk by 7.08%. Tighter schedules (1-2 days) have a 40-60% higher delay risk compared to standard (3-5 days), which is the case for this shipment with a scheduled delivery of 4 days.\n\nThe knowledge base information highlights that Standard shipping mode and peak processing hours contribute significantly to delays. To mitigate these risks, we recommend:\n\n1. **Carrier diversification**: Consider using alternative carriers or services to reduce reliance on Standard shipping mode.\n2. **Buffer time allocation**: Allocate additional buffer time for high-value orders like this one ($363.98) to account for potential delays.\n3. **Peak hour processing optimization**: Stagger processing and automate routing to minimize the impact of peak hours.\n\n**Next Step:** Implement these recommendations and monitor shipment performance to adjust strategies accordingly."
+  }
+}
